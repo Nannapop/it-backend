@@ -21,7 +21,7 @@ db.connect(err => {
   if (err) {
     console.error("DB connection failed:", err);
   } else {
-    console.log("✅ Connected to Railway MySQL");
+    console.log("Connected to Railway MySQL");
   }
 });
 
